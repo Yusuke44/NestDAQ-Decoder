@@ -1,5 +1,9 @@
-#ifndef AmQStrTdcData_h
-#define AmQStrTdcData_h
+// Originally from spadi-alliance/nestdaq-user-impl (AmQStrTdcData.h, commit 3dd6b69), MIT License.
+// See LICENSE.nestdaq-user-impl in this directory.
+// Modified by Yusuke Nakayama, 2026: added streaming RM (StreamingRM, head 0x09) support.
+
+#ifndef AmQStrTdcData_RM_h
+#define AmQStrTdcData_RM_h
 
 #include <cstdint>
 

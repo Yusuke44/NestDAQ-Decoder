@@ -40,7 +40,7 @@ struct Header { /* Total size: 304 bytes */
     time_t   stopUnixtime        {0};     /* 64 bits = 8 bytes */
     char     comments[256];               /* 8 bits x 256 = 256 bytes*/
 };
-} //namespace v1
+} //namespace v0
 
 
 } //namespace FileSinkHeader

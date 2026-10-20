@@ -87,9 +87,12 @@ All hit vectors in one entry have the same length.
 
 ## Third-party code
 
-The headers in `include/` are taken from [spadi-alliance/nestdaq-user-impl](https://github.com/spadi-alliance/nestdaq-user-impl) (commit `3dd6b69`), which is distributed under the MIT License. See `include/LICENSE.nestdaq-user-impl`.
+The headers in `include/` are taken from [spadi-alliance/nestdaq-user-impl](https://github.com/spadi-alliance/nestdaq-user-impl) (commit `3dd6b69`), Copyright (c) 2023 spadi-alliance, distributed under the MIT License. See [`include/LICENSE.nestdaq-user-impl`](include/LICENSE.nestdaq-user-impl).
 
-`include/AmQStrTdcData_RM.h` is a modified version of `AmQStrTdcData.h` from the same repository, with streaming RM (`StreamingRM`, head `0x09`) support added.
+| File | Status |
+|---|---|
+| `FileSinkHeader.h`, `FileSinkTrailer.h`, `FilterHeader.h`, `HeartbeatFrameHeader.h`, `SubTimeFrameHeader.h`, `TimeFrameHeader.h` | Unmodified |
+| `AmQStrTdcData_RM.h` | Modified from `AmQStrTdcData.h`: added streaming RM (`StreamingRM`, head `0x09`) support |
 
 ## Contact
 
